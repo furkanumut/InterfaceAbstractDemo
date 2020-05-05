@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\trhp_\\source\\repos\\InterfaceAbstractDemo\\InterfaceAbstractDemo\\InterfaceAbstractDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\trhp_\\source\\repos\\InterfaceAbstractDemo\\InterfaceAbstractDemo\\InterfaceAbstractDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trhp_\\source\\repos\\InterfaceAbstractDemo\\InterfaceAbstractDemo\\InterfaceAbstractDemo.csproj",
+        "projectName": "InterfaceAbstractDemo",
+        "projectPath": "C:\\Users\\trhp_\\source\\repos\\InterfaceAbstractDemo\\InterfaceAbstractDemo\\InterfaceAbstractDemo.csproj",
+        "packagesPath": "C:\\Users\\trhp_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trhp_\\source\\repos\\InterfaceAbstractDemo\\InterfaceAbstractDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trhp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
